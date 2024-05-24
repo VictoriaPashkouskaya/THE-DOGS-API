@@ -1,5 +1,50 @@
-img {
-     max-width: 300px;
+body {
+     background-image: url('img/renderizado-3d-retrato-perro-dibujos-animados_23-2150907252.avif');
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     height: 100vh;
+     margin: 0;
+     
+ }
+h1 {
+     color: azure;
+}
+ #breedsList {
+     width: 300px;
+     height: 200px;
+     overflow-y: scroll;
+     border: 1px solid #ccc;
+     padding: 10px;
+     box-sizing: border-box;
+     background-color: rgba(255, 255, 255, 0.8); 
+     text-align: right; 
+ }
+
+ .breed-item {
+     margin: 5px 0;
+ }
+ .breed-image-container {
+     top: 25px;
+     position: relative;
+     width: 100%;
+     padding-top: 100%; 
+     overflow: hidden;
+     border-radius: 8px;
+     background-color: #fff; 
+ }
+
+ .breed-image {
      margin: 10px;
-     }
-   
+     position: absolute;
+     left: 0;
+     object-fit: cover; 
+ }
+ img {
+
+     width: 300px;
+     height: 250px;
+     margin: 10px;
+ }
